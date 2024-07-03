@@ -9,7 +9,7 @@
 
 Запросить доступ к проекту. Напишите мне в маттермосте, в лс, свой ник на Гитхабе. Проще всего прислать мне такой текст со своим аккаунтом:
 
-Привет, прошу доступ для аккаунта @EreminD к репозиторию https://github.com/EreminD/skypro_workshop_at.git
+Привет, прошу доступ для аккаунта @HelenVirtanen к репозиторию https://github.com/HelenVirtanen/skypro_workshop_at
 
 Придет приглашение добавиться в команду – не забудьте принять его.
 
@@ -21,7 +21,7 @@
 
 Запушить изменения на github
 
-Вот тут в списке должна появиться ваша ветка – https://github.com/EreminD/skypro_workshop_at/branches
+Вот тут в списке должна появиться ваша ветка – https://github.com/HelenVirtanen/skypro_workshop_at/branches
 
 Важно!!!
 Конечно же, будут сложности.
