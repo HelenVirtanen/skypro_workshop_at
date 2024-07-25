@@ -17,7 +17,7 @@
 
 5. В папке в конец файла requirements.txt добавьте строчку Faker==18.3.1
 
-6. Запушить изменения на github
+6. Запушить изменения на github.
 
 7. Вот тут в списке должна появиться ваша ветка – https://github.com/HelenVirtanen/skypro_workshop_at/branches
 
