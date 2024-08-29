@@ -13,3 +13,17 @@ def test_edit():
     response = requests.get(f'https://todo-app-sky.herokuapp.com/{id}')
     assert response.status_code == 200
     assert response.json()['title']=="generated-1"
+
+
+def test_edit_completed():
+    body = {"title":"На море всем!"}
+    response = requests.post("https://todo-app-sky.herokuapp.com/", json=body)
+    id = response.json()["id"]
+    
+    body = {"completed":True}
+    response = requests.patch(f'https://todo-app-sky.herokuapp.com/{id}', json=body)
+    assert response.status_code == 200
+    
+    response = requests.get(f'https://todo-app-sky.herokuapp.com/{id}')
+    assert response.status_code == 200
+    assert response.json()['completed']==True
