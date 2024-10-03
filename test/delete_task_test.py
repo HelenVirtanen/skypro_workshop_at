@@ -2,7 +2,7 @@ import requests
 
 
 def test_delete():
-    body = {"title":"generated","completed":False}
+    body = {"title":"Пройти собес","completed":False}
     response = requests.post("https://todo-app-sky.herokuapp.com/", json=body)
     id = response.json()["id"]
     
