@@ -15,10 +15,7 @@ def test_edit():
     assert response.json()['title']=="Посмотреть сериал дома"
 
 
-import requests
-
-
-def test_edit():
+def test_edit_completed():
     body = {"title":"Пойти в кино","completed":False}
     response = requests.post("https://todo-app-sky.herokuapp.com/", json=body)
     id = response.json()["id"]
